@@ -1,0 +1,4 @@
+display_name: Windows Computer Use
+short_description: Operate Windows desktop apps through UI Automation.
+default_prompt: Use Windows Computer Use to inspect the active Windows app and report what you can see.
+

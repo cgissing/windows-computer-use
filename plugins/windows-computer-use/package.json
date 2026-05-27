@@ -1,0 +1,16 @@
+{
+  "name": "windows-computer-use",
+  "version": "0.1.2",
+  "private": true,
+  "type": "module",
+  "description": "Codex plugin MCP server for Windows Computer Use.",
+  "scripts": {
+    "self-test": "node mcp/server.mjs --self-test",
+    "verify": "node scripts/verify-plugin.mjs",
+    "live-smoke": "node scripts/live-app-smoke.mjs",
+    "browser-smoke": "node scripts/browser-complex-smoke.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

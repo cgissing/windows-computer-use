@@ -1,0 +1,29 @@
+# Dependencies and build output
+node_modules/
+dist/
+build/
+coverage/
+
+# Local environment and logs
+.env
+.env.*
+*.log
+*.tmp
+*.bak
+
+# Runtime captures and local automation artifacts
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.pcap
+*.pcapng
+*.har
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+
+# Local validation notes can contain machine-specific paths/window details.
+plugins/windows-computer-use/docs/wiki/validation.md

@@ -1,0 +1,11 @@
+{
+  "windows-computer-use": {
+    "command": "node",
+    "args": [
+      "./mcp/server.mjs"
+    ],
+    "env": {
+      "WINDOWS_COMPUTER_USE_SCOPE": "active_window"
+    }
+  }
+}

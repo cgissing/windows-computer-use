@@ -1,0 +1,43 @@
+{
+  "name": "windows-computer-use",
+  "version": "0.1.2",
+  "description": "Windows Computer Use for Codex using UI Automation, screenshots, and MCP tools.",
+  "author": {
+    "name": "cgissing"
+  },
+  "homepage": "https://developers.openai.com/codex/app/computer-use",
+  "repository": "https://github.com/cgissing/windows-computer-use",
+  "license": "MIT",
+  "keywords": [
+    "windows",
+    "computer-use",
+    "accessibility",
+    "uia",
+    "mcp",
+    "automation"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Windows Computer Use",
+    "shortDescription": "Control Windows desktop apps through UI Automation.",
+    "longDescription": "Windows Computer Use gives Codex an MCP-backed desktop control surface for Windows. It captures screenshots, reads the UI Automation tree, clicks, types, scrolls, drags, invokes controls, and sets editable values for scoped GUI workflows.",
+    "developerName": "cgissing",
+    "category": "Engineering",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://developers.openai.com/codex/app/computer-use",
+    "privacyPolicyURL": "https://openai.com/policies/row-privacy-policy/",
+    "termsOfServiceURL": "https://openai.com/policies/row-terms-of-use/",
+    "defaultPrompt": [
+      "Use Windows Computer Use to inspect the active app.",
+      "Click through this Windows UI and report what fails.",
+      "Read the active window accessibility tree."
+    ],
+    "brandColor": "#2563EB",
+    "screenshots": []
+  }
+}
