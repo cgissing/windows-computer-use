@@ -2,10 +2,12 @@
 
 Language: English | [简体中文](./README.zh-CN.md)
 
+Control Windows desktop apps with Codex and other MCP agents via UI Automation,
+screenshots, and keyboard/mouse input.
+
 Windows Computer Use is a local Windows desktop automation plugin for Codex and
 other MCP-capable agent clients. It exposes a stdio MCP server that can inspect
-and operate Windows GUI applications through screenshots, Windows UI Automation,
-and keyboard/mouse input.
+and operate Windows GUI applications.
 
 Use it when an agent needs to work with a real Windows desktop app, such as a
 settings dialog, installer, legacy Win32 app, WPF/WinForms app, or another GUI

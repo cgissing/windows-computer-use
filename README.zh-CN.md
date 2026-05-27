@@ -2,10 +2,10 @@
 
 语言：[English](./README.md) | 简体中文
 
-Windows Computer Use 是一个面向 Windows 桌面的本地自动化插件，可用于 Codex
-以及其他支持 MCP 的 agent 客户端。它通过 stdio MCP server 暴露能力，让 agent
-可以结合截图、Windows UI Automation 以及键盘和鼠标输入，检查并操作 Windows
-GUI 应用。
+让 Agent 操控 Windows 桌面软件。
+
+Windows Computer Use 是一个基于 MCP 的 Windows 桌面自动化插件，让 Codex 和其他
+Agent 通过截图、Windows UI Automation 与键鼠输入检查并操作 Windows GUI 应用。
 
 当 agent 需要处理真实 Windows 桌面程序时，可以使用这个项目。例如设置窗口、
 安装器、旧式 Win32 应用、WPF/WinForms 应用，或者其他没有更好结构化 API 的
